@@ -1,0 +1,16 @@
+:root {
+    --bs-primary: rgb(201, 128, 201);
+    --bs-primary-rgb: 201, 128, 201;
+    --bs-primary-text-emphasis: rgb(114, 53, 114);
+    --bs-primary-bg-subtle: rgb(239, 195, 239);
+    --bs-primary-border-subtle: rgb(239, 195, 239);
+}
+
+.btn-primary {
+    --bs-btn-bg: var(--bs-primary);
+    --bs-btn-border-color: var(--bs-primary);
+    --bs-btn-hover-bg: rgb(239, 195, 239);
+    --bs-btn-hover-border-color: rgb(239, 195, 239);
+    --bs-btn-active-bg: var(--bs-primary-text-emphasis);
+    --bs-btn-active-border-color: var(--bs-primary-text-emphasis);
+}
